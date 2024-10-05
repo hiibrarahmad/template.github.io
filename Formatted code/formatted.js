@@ -179,9 +179,3 @@ const windowResize = (event) => {
 window.addEventListener('mousemove', mouseMove);
 window.addEventListener('resize', windowResize);
 
-
-
-// Add event listener for image click
-document.getElementById('projectImage').addEventListener('click', function() {
-  window.location.href = 'https://hiibrarahmad.github.io/DERMOSCOPE.github.io/ibom.html';
-});
